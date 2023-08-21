@@ -25,7 +25,6 @@ run application with below command  <br>
 curl comamnd to shorten URL, after hitting this, save short link from response  <br>
 
 curl --location 'localhost:8020/shorten-url' \
---header 'X-Token: WzRdOjEzZjU0NzA0MDZiNjlmYzA4OTVkZGZmYmVmZmI5NWFmZTA1ZmYxMTg0MDRiNDEyMmU0ODdjY2MyNzUyYzU1NDI6MjA=' \
 --header 'Content-Type: application/json' \
 --data '{
     "destination": "https://www.accuweather.com/en/in/hyderabad/202190/weather-forecast/202190"
